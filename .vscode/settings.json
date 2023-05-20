@@ -1,0 +1,21 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "keyboard.h": "c",
+        "textures.h": "c",
+        "game.h": "c",
+        "menu.h": "c",
+        "player.h": "c",
+        "initialization.h": "c",
+        "string.h": "c",
+        "sdl.h": "c",
+        "interactable_items.h": "c",
+        "text.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "sdl_thread.h": "c",
+        "sdl_mixer.h": "c",
+        "sdl_ttf.h": "c",
+        "network_udp.h": "c"
+    }
+}

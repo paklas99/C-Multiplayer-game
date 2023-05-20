@@ -1,0 +1,463 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue May 24 18:43:38 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from 'Makefile', line 2)
+sources_directory = ./components/sources/
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+PLATFORMIO_IDE = 2.4.3
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOME 
+DRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+SIGRITY_EDA_DIR = C:\Cadence\SPB_17.4
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"sv","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+ONEDRIVE = C:\Users\numoh\OneDrive - KTH
+# makefile (from 'Makefile', line 5)
+objects = $(patsubst $(sources_directory)%.c,$(build_directory)%.o,$(sources))
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+TMP = C:\Users\numoh\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# makefile (from 'Makefile', line 7)
+flags_pc = -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_net -lSDL2_mixer -Wall -lm 
+# makefile (from 'Makefile', line 6)
+flags_mac = -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_net -lSDL2_mixer -lm
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-1125f84c-a278-4715-8a73-99086e6d7757-sock
+# environment
+VSCODE_CWD = C:\Users\numoh\AppData\Local\Programs\Microsoft VS Code
+# environment
+CDS_LIC_ONLY = 1
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# makefile
+CURDIR := c:/Users/numoh/OneDrive - KTH/Dokument/GitHub/HI1038-Projekt
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\numoh
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_18352_VLYCMHHTIEECHUBN
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = NUH
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = numoh
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = C:\Users\numoh\AppData\Roaming\SPB_Data
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\numoh\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\NUH
+# environment
+CDS_LIC_FILE = 5280@Cadence_SERVER;5280@Nuh
+# environment
+ONEDRIVECONSUMER = C:\Users\numoh\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = NUH
+# environment
+MAKELEVEL := 0
+# environment
+PLATFORMIO_PATH = C:\Users\numoh\.platformio\penv\Scripts;C:\Users\numoh\.platformio\penv;C:\Users\numoh\.platformio\python3;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2021a\bin;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\mingw_dev_lib\bin;C:\MinGW\bin;C:\MinGW\bin;C:\Users\numoh\AppData\Local\Microsoft\WindowsApps;C:\Users\numoh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\numoh\AppData\Local\GitHubDesktop\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2021a\bin;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\mingw_dev_lib\bin;C:\MinGW\bin;C:\MinGW\bin;C:\Users\numoh\AppData\Local\Microsoft\WindowsApps;C:\Users\numoh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\numoh\AppData\Local\GitHubDesktop\bin;
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2021a\bin;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\mingw_dev_lib\bin;C:\MinGW\bin;C:\MinGW\bin;C:\Users\numoh\AppData\Local\Microsoft\WindowsApps;C:\Users\numoh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\numoh\AppData\Local\GitHubDesk 
+top\bin;
+# environment
+QT_DEVICE_PIXEL_RATIO = auto
+# makefile (from 'Makefile', line 3)
+build_directory = ./build/
+# environment
+ONEDRIVECOMMERCIAL = C:\Users\numoh\OneDrive - KTH
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := mac
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+CDS_SITE = C:\Cadence\Company
+# environment
+LOCALAPPDATA = C:\Users\numoh\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\92d2a921aa8e200d91e2581638b39391-1.67.2-main-sock
+# environment
+HOMEPATH = \Users\numoh
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PT8HOME = C:\Program Files\Cisco Packet Tracer 8.0.1
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\numoh\AppData\Roaming
+# environment
+TEMP = C:\Users\numoh\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# makefile (from 'Makefile', line 1)
+executable = Kalabalik
+# default
+MAKEFILES := 
+# makefile (from 'Makefile', line 4)
+sources = $(wildcard $(sources_directory)*.c)
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8e0c
+# default
+.INCLUDE_DIRS = C:/MinGW/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# env 
+ironment
+PROCESSOR_LEVEL = 6
+# environment
+VSCODE_PID = 18352
+# environment
+USERDOMAIN_ROAMINGPROFILE = NUH
+# variable set hash-table stats:
+# Load=110/1024=11%, Rehash=0, Collisions=15/144=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1627667607): 30 files, no impossibilities.
+# . (key c:/Users/numoh/OneDrive - KTH/Dokument/GitHub/HI1038-Projekt, mtime 1653 
+410473): 13 files, no impossibilities.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1651598833): 5 files, no impossibilities.
+# C:\Program Files\MATLAB\R2021a\bin (key C:/Program Files/MATLAB/R2021a/bin, mtime 1627740458): 13 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1647859786): 8 files, no impossibilities.
+# C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1652699505): 88 files, no impossibilities.
+# components/sources (key c:/Users/numoh/OneDrive - KTH/Dokument/GitHub/HI1038-Projekt/components/sources, mtime 1653410473): 16 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1653167863): 130 files, no impossibilities.
+# C:\Users\numoh\AppData\Local\Microsoft\WindowsApps (key C:/Users/numoh/AppData/Local/Microsoft/WindowsApps, mtime 1653394621): 30 files, no impossibilities.
+# C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32 
+/Wbem, mtime 1647094796): 158 files, no impossibilities.
+# C:\mingw_dev_lib\bin: could not be stat'd.
+# C:\Users\numoh\AppData\Local\GitHubDesktop\bin (key C:/Users/numoh/AppData/Local/GitHubDesktop/bin, mtime 1647859260): 4 files, no impossibilities.
+# C:\Users\numoh\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/numoh/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1653168735): 4 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1653168166): 2884 files, no impossibilities.
+# ./components/sources (key c:/Users/numoh/OneDrive - KTH/Dokument/GitHub/HI1038-Projekt/components/sources, mtime 1653410473): 16 files, no impossibilities.
+
+# 3399 files, no impossibilities in 16 directories.
+
+# Implicit Rules
+
+build/%.o: components/sources/%.c
+#  recipe to execute (from 'Makefile', line 18):
+	gcc -c $< -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+mac: build/text.o build/map.o build/textures.o build/network_UDP.o build/object.o build/main.o build/collision_detect 
+ion.o build/initialization.o build/game.o build/interactable_items.o build/points.o build/player.o build/menu.o build/network_TCP.o build/server.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 10):
+	gcc -o $(executable) $(objects) $(flags_mac)
+	gcc -o Server $(build_directory)server.o $(build_directory)collision_detection.o $(build_directory)game.o $(build_directory)initialization.o $(build_directory)interactable_items.o $(build_directory)map.o $(build_directory)menu.o $(build_directory)network_UDP.o $(build_directory)network_TCP.o $(build_directory)object.o $(build_directory)player.o $(build_directory)points.o $(build_directory)text.o $(build_directory)textures.o $(flags_mac)
+
+# Not a target:
+build/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+.PHONY: clean_pc clean_mac
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/collision_detection.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/menu.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/textures.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-24 18:41:13
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/player.o:
+#  Implicit rule search has not been done.
+#  Modification time never checke 
+d.
+#  File has not been updated.
+
+# Not a target:
+build/object.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/initialization.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/network_TCP.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/points.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean_pc:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 27):
+	powershell "(Remove-Item -ErrorAction Ignore $(build_directory)*.o)"
+	powershell "(Remove-Item -ErrorAction Ignore *.exe)"
+
+clean_mac:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 30):
+	rm $(build_directory)*.o
+	rm $(executable)
+	rm ./Server
+
+# Not a target:
+build/map.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/network_UDP.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/interactable_items.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+components/server/server.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/game.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/text.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/server.o: components/server/server.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 22):
+	gcc -c ./components/server/server.c -o $(build_directory)server.o 
+
+pc: build/text.o build/map.o build/textures.o build/network_UDP.o build/object.o buil 
+d/main.o build/collision_detection.o build/initialization.o build/game.o build/interactable_items.o build/points.o build/player.o build/menu.o build/network_TCP.o build/server.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 14):
+	gcc -o $(executable) $(objects) $(flags_pc)
+	gcc -o Server $(build_directory)server.o $(build_directory)collision_detection.o $(build_directory)game.o $(build_directory)initialization.o $(build_directory)interactable_items.o $(build_directory)map.o $(build_directory)menu.o $(build_directory)network_UDP.o $(build_directory)network_TCP.o $(build_directory)object.o $(build_directory)player.o $(build_directory)points.o $(build_directory)text.o $(build_directory)textures.o $(flags_pc)
+
+# files hash-table stats:
+# Load=25/1024=2%, Rehash=0, Collisions=0/72=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 7 (6) / strings = 3378 / storage = 50500 B / avg = 14 B
+# current buf: size = 8174 B / used = 1510 B / count = 89 / avg = 16 B
+# other used: total = 42326 B / count = 3289 / avg = 12 B
+# other free: total = 54 B / max = 14 B / min = 6 B / avg = 9 B
+
+# strcache performance: lookups = 3454 / hit rate = 2%
+# hash-table stats:
+# Load=3378/8192=41%, Rehash=0, Collisions=1123/3454=33%
+# Finished Make data base on Tue May 24 18:43:38 2022
+
+ 
+make.exe: *** No rule to make target 'all'.  Stop.
+

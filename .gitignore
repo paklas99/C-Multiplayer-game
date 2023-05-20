@@ -1,0 +1,13 @@
+
+build/collision_detection.o
+build/game.o
+build/initialization.o
+build/interactable_items.o
+build/keyboard.o
+build/main.o
+build/menu.o
+build/objects.o
+build/player.o
+build/points.o
+build/textures.o
+Kalabalik

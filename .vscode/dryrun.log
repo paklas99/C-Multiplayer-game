@@ -1,0 +1,11 @@
+make.exe --dry-run --keep-going --print-directory
+make.exe: Entering directory 'c:/Users/numoh/OneDrive - KTH/Dokument/GitHub/HI1038-Projekt'
+gcc -c components/sources/game.c -o build/game.o
+ 
+gcc -c components/sources/menu.c -o build/menu.o
+ 
+gcc -o Kalabalik ./build/text.o ./build/map.o ./build/textures.o ./build/network_UDP.o ./build/object.o ./build/main.o ./build/collision_detection.o ./build/initialization.o ./build/game.o ./build/interactable_items.o ./build/points.o ./build/player.o ./build/menu.o ./build/network_TCP.o -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_net -lSDL2_mixer -lm
+gcc -o Server ./build/server.o ./build/collision_detection.o ./build/game.o ./build/initialization.o ./build/interactable_items.o ./build/map.o ./build/menu.o ./build/network_UDP.o ./build/network_TCP.o ./build/object.o ./build/player.o ./build/points.o ./build/text.o ./build/textures.o -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_net -lSDL2_mixer -lm
+ 
+make.exe: Leaving directory 'c:/Users/numoh/OneDrive - KTH/Dokument/GitHub/HI1038-Projekt'
+ 
